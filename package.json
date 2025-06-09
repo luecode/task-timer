@@ -1,0 +1,13 @@
+{
+  "name": "task-timer",
+  "version": "1.0.0",
+  "description": "Mini task timer application",
+  "scripts": {
+    "dev": "concurrently \"npm run api:dev\" \"npm run web:dev\"",
+    "api:dev": "cd api && npm run dev",
+    "web:dev": "cd web && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
