@@ -53,7 +53,7 @@ const TaskForm = ({ onSubmit, loading }) => {
             />
           </svg>
         </div>
-        <h2 className="text-2xl font-bold text-gray-800">Crear nueva tarea</h2>
+        <h2 className="text-2xl font-bold text-gray-800">Crear tarea</h2>
       </div>
 
       {formError && (
